@@ -39,7 +39,7 @@ console.log(precos)
 
 // ============================================================================================ //
 
-// SORT : organiza o ARRAY, se for ( b - a ; Crescente / b - a ; Decrescente)  
+// SORT : organiza o ARRAY, se for ( a - b ; Crescente / b - a ; Decrescente)  
 const numeros = {5, 1, 4, 2]
 
   numeros.sort((a, b) => a - b)
@@ -69,6 +69,7 @@ console.log(produto.nome) // Forma e procurar o objeto, mostra item
 // Modifica item
 produto.preco = 18                                
 console.log(produto) / console.log(produto.preco)
+
 // Adiciona novo
 produto.categoria = "Papelaria" // Em caso de colocar uma informação que não está contida na variável, a mesma é adicionada
 console.log(produto) 
