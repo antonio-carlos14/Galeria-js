@@ -1,10 +1,6 @@
-
 const prompt = require("prompt-sync")()
 
-
 const vendasDaSemana = []
-
-
 const quantidade = Number(prompt("Quantas vendas? "))
 
 for (let i = 1; i <= quantidade; i++) {
@@ -12,15 +8,17 @@ for (let i = 1; i <= quantidade; i++) {
   vendasDaSemana.push(venda)
 }
 
-let menorVenda = vendasDaSemana[0]
+let menorVenda
 
+if (vendasDaSemana.length > 0) {
+  menorVenda = vendasDaSemana[0]
 
-vendasDaSemana.forEach((venda) => {
-  if (venda < menorVenda) {
-    menorVenda = venda
-  }
-})
-
+  vendasDaSemana.forEach((venda) => {
+    if (venda < menorVenda) {
+      menorVenda = venda
+    }
+  })
+}
 
 module.exports = menorVenda
-//REVER
+
