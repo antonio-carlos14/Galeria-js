@@ -20,5 +20,8 @@ if (vendasDaSemana.length > 0) {
   })
 }
 
-module.exports = menorVenda
 
+menorVenda = 90
+console.log(menorVenda)
+
+module.exports = menorVenda
