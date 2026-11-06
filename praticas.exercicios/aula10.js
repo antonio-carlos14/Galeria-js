@@ -6,9 +6,8 @@ const produto = {
     estoque: Number(prompt("Estoque disponível: ")),
     aumento: Number(prompt("Aumento do preço: ")),
 }
-produto.preco = produto.preco + 10
+produto.preco = produto.preco + aumento
 
 console.log(produto.preco)
 
 module.export = produto
-// FINALIZADO,CONFIRA SE ESTÁ DE FATO FORMULADO DE FORMA CERTA
