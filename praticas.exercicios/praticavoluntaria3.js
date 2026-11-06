@@ -85,7 +85,8 @@ const status = verificarAprovacao(nota)
 console.log(status)*/
 
 // ================================================================================================== //
-  
+                        'DIFERENTES TIPOS DE FUNCTION'
+
 // FUNÇÃO aerofunction
 const soma = () => {
     //arrow function
