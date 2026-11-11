@@ -77,5 +77,3 @@ module.exports = {
   produtosComEstoqueBaixo,
   resumo,
 }
-
-// REVER ; FINALIZAR
